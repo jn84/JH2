@@ -1,0 +1,15 @@
+mkdir tempdir
+createFile tempdir\walrus.txt one 2 thr33 four five seventy-two
+list tempdir
+delete walrus.txt
+delete
+mkdir
+what
+rename tempdir\walrus.txt
+rename tempdir\walrus.txt tempdir\penguin.txt
+list .
+createFile andrew.txt andrew_nims age:9 grade:3
+printFile andrew.txt
+mkdir con
+createFile con
+quit
